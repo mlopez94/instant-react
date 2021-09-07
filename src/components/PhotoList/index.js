@@ -9,17 +9,17 @@ const PhotoList = ({ category }) => {
     {
       name: 'Budget Tracker',
       category: 'all',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'AS AN avid traveler I WANT to be able to track my withdrawals and deposits with or without a data/internet connection SO THAT my account balance is accurate when I am traveling',
     },
     {
       name: 'nosql-nocry',
       category: 'all',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'AS A social media startup WANT an API for my social network that uses a NoSQL database SO THAT my website can handle large amounts of unstructured data',
     },
     {
       name: 'The Tech Blog',
       category: 'all',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'AS A developer who writes about tech I WANT a CMS-style blog site SO THAT I can publish articles, blog posts, and my thoughts and opinions',
     },
     {
       name: 'Travilon',
@@ -39,10 +39,16 @@ const PhotoList = ({ category }) => {
     
   ]);
 
-  const currentPhotos = photos.filter((photo) => photo.category === category);
+  // const currentPhotos = photos.filter((photo) => photo.category === category);
+
+  const currentPhotos = photos.filter((photo) => photo.category === 'all');
+
+  console.log(category);
 
   
+  console.log(photos);
 
+  
   const toggleModal = (image, i) => {
     // current photo
     setCurrentPhoto({...image, index: i});
@@ -58,7 +64,7 @@ const PhotoList = ({ category }) => {
         {currentPhotos.map((image, i) => (
           <img
             // src={require(`../../assets/small/${category}/${i}.jpg`)}
-            src={require(`../../assets/projects/${category}/${i}.PNG`).default}
+            src={require(`../../assets/projects/all/${i}.png`).default}
             alt={image.name}
             className="img-thumbnail mx-1"
             onClick={() => toggleModal(image, i)}
