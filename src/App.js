@@ -6,6 +6,7 @@ import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
 
 
+
 function App() {
   const [categories] = useState([
     {
@@ -13,7 +14,7 @@ function App() {
       description:
         "Projects that I have completed",
     },
-    { name: "resume", description: "Portraits of people in my life" },
+    { name: "resume", description: "Resume of past work" },
     
   ]);
 

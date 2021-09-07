@@ -7,100 +7,36 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: 'Grocery aisle',
-      category: 'commercial',
+      name: 'Budget Tracker',
+      category: 'all',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Grocery booth',
-      category: 'commercial',
+      name: 'nosql-nocry',
+      category: 'all',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Building exterior',
-      category: 'commercial',
+      name: 'The Tech Blog',
+      category: 'all',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Restaurant table',
-      category: 'commercial',
+      name: 'Travilon',
+      category: 'all',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Cafe interior',
-      category: 'commercial',
+      name: 'Weather Dashboard',
+      category: 'all',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
-      name: 'Cat green eyes',
-      category: 'portraits',
+      name: 'Who Am I?',
+      category: 'all',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
-    {
-      name: 'Green parrot',
-      category: 'portraits',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Yellow macaw',
-      category: 'portraits',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Pug smile',
-      category: 'portraits',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Pancakes',
-      category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Burrito',
-      category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Scallop pasta',
-      category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Burger',
-      category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Fruit bowl',
-      category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Green river',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Docks',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Panoramic village by sea',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Domestic landscape',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Park bench',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
+    
   ]);
 
   const currentPhotos = photos.filter((photo) => photo.category === category);
@@ -122,7 +58,7 @@ const PhotoList = ({ category }) => {
         {currentPhotos.map((image, i) => (
           <img
             // src={require(`../../assets/small/${category}/${i}.jpg`)}
-            src={require(`../../assets/small/${category}/${i}.jpg`).default}
+            src={require(`../../assets/projects/${category}/${i}.PNG`).default}
             alt={image.name}
             className="img-thumbnail mx-1"
             onClick={() => toggleModal(image, i)}
