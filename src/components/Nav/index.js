@@ -1,14 +1,16 @@
 import React from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Nav(props) {
-  const {
-    categories = [],
-    setCurrentCategory,
-    currentCategory,
-    contactSelected,
-    setContactSelected,
-  } = props;
+function Nav({ categories, setCurrentCategory, currentCategory, contactSelected, setContactSelected }) {
+
+// function Nav(props) {
+//   const {
+//     categories = [],
+//     setCurrentCategory,
+//     currentCategory,
+//     contactSelected,
+//     setContactSelected,
+//   } = props;
 
   // const handleClick = (item) => {
   //   console.log(item);

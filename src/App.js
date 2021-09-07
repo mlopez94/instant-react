@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 
 function App() {
-  const [categories] = useState([
+  const [categories, setCategories] = useState([
     {
       name: "portfolio",
       description:
@@ -30,6 +30,7 @@ function App() {
         currentCategory={currentCategory}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
+        setCategories={setCategories}
       ></Nav>
       <main>
         {!contactSelected ? (
