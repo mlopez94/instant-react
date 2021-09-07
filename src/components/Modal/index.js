@@ -14,6 +14,7 @@ const Modal = ({ onClose, currentPhoto }) => {
         <button type="button" onClick={onClose}>
           Close this modal
         </button>
+        <button type='button' class="fab fa-github">  Go to Site</button>
       </div>
     </div>
   );

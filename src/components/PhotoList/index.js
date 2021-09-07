@@ -24,17 +24,17 @@ const PhotoList = ({ category }) => {
     {
       name: 'Travilon',
       category: 'all',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'To make travel planning easier by encorporating air-travel recommendations, weather for your destination, and personalized travel itinerary',
     },
     {
       name: 'Weather Dashboard',
       category: 'all',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'This app displays the weather for a city entered in the input field followed by a five day foreceast',
     },
     {
       name: 'Who Am I?',
       category: 'all',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'A Node.js application that takes information from the input on cmd line and dynamically creates cards for each team member',
     },
     
   ]);
