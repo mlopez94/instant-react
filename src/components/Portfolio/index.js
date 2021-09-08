@@ -2,7 +2,7 @@ import React from 'react';
 import PhotoList from '../PhotoList';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Gallery({ currentCategory }) {
+function Portfolio({ currentCategory }) {
   const { name, description } = currentCategory;
   return (
     <section>
@@ -12,4 +12,4 @@ function Gallery({ currentCategory }) {
     </section>
   );
 }
-export default Gallery;
+export default Portfolio;

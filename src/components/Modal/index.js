@@ -12,9 +12,9 @@ const Modal = ({ onClose, currentPhoto }) => {
           {description}
         </p>
         <button type="button" onClick={onClose}>
-          Close this modal
+          Close
         </button>
-        <button type='button' class="fab fa-github">  Go to Site</button>
+        <button type='button' className="fab fa-github">  Go to Site</button>
       </div>
     </div>
   );

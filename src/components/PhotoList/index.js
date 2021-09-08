@@ -43,10 +43,6 @@ const PhotoList = ({ category }) => {
 
   const currentPhotos = photos.filter((photo) => photo.category === 'all');
 
-  console.log(category);
-
-  
-  console.log(photos);
 
   
   const toggleModal = (image, i) => {
