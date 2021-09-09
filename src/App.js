@@ -15,6 +15,9 @@ function App() {
         "Projects that I have completed",
     },
     { name: "resume", description: "Resume of past work" },
+    { name: "about", description: "about me fool" },
+    { name: "contact", description: "contact me" },
+
     
   ]);
 
@@ -33,16 +36,15 @@ function App() {
         setCategories={setCategories}
       ></Nav>
       <main>
-        {!contactSelected ? (
-          <>
-            
-            <About></About>
-            <Portfolio currentCategory={currentCategory}></Portfolio>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-          
+        
+        {console.log({currentCategory})}
+        {currentCategory.name === "portfolio" && (
+          <Portfolio currentCategory={currentCategory}/>
         )}
+        {currentCategory.name === "about" && <About/>}
+        {currentCategory.name === 'contact' && <ContactForm/>}
+       { currentCategory.name === 'resume' && '' }
+        
       </main>
       <Footer></Footer>
     </div>
