@@ -1,21 +1,25 @@
 import React from 'react';
 
+
 const Modal = ({ onClose, currentPhoto }) => {
-  const { name, description, category, index, link  } = currentPhoto;
+  const { name, description, category, index, repoLink, siteLink  } = currentPhoto;
 
   return (
     <div className="modalBackdrop">
       <div className="modalContainer">
         <h3 className="modalTitle">{name} </h3>
-        <img src={require(`../../assets/projects/${category}/${index}.PNG`).default} alt="current category" />
+        <img src={require(`../../assets/projects/${category}/${index}.png`).default} alt="current category" />
         <p>
           {description}
         </p>
-        <p>{link}</p>
+        
         <button type="button" onClick={onClose}>
           Close
         </button>
         <button type='button' className="fab fa-github">  Go to Site</button>
+        {/* <button onClick={link}>Perform action</button> */}
+        <p>{repoLink}</p>
+        <p>{siteLink}</p>
       </div>
     </div>
   );

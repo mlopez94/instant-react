@@ -23,7 +23,7 @@ function App() {
     
   ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [currentCategory, setCurrentCategory] = useState(categories[2]);
 
   const [contactSelected, setContactSelected] = useState(false);
 
@@ -39,7 +39,8 @@ function App() {
       ></Nav>
       <main>
         
-        {console.log({currentCategory})}
+        {/* {console.log({currentCategory})} */}
+        
         {currentCategory.name === "portfolio" && (
           <Portfolio currentCategory={currentCategory}/>
         )}
