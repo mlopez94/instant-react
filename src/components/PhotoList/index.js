@@ -10,11 +10,13 @@ const PhotoList = ({ category }) => {
       name: 'Budget Tracker',
       category: 'all',
       description: 'AS AN avid traveler I WANT to be able to track my withdrawals and deposits with or without a data/internet connection SO THAT my account balance is accurate when I am traveling',
+      link: 'http://espn.com',
     },
     {
       name: 'nosql-nocry',
       category: 'all',
       description: 'AS A social media startup WANT an API for my social network that uses a NoSQL database SO THAT my website can handle large amounts of unstructured data',
+      link: 'http://cnn.com',
     },
     {
       name: 'The Tech Blog',
@@ -59,7 +61,7 @@ const PhotoList = ({ category }) => {
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
           <img
-            // src={require(`../../assets/small/${category}/${i}.jpg`)}
+            
             src={require(`../../assets/projects/all/${i}.PNG`).default}
             alt={image.name}
             className="img-thumbnail mx-1"
