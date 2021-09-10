@@ -1,11 +1,10 @@
 import React from "react";
-// import resumeImg from "../../../public/";
 
 function Resume() {
   return (
     <section className="resSection">
       <h1 className="skillsGraph">My Skills</h1>
-      
+
 
       <p>HTML</p>
       <div className="container2">
