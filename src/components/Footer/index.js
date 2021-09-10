@@ -2,10 +2,10 @@ import React from 'react';
 
 function Footer() {   
     return (
-    <div  id="footer" className="flex-row px-1">
+    <div  id="footer" className="flex-row px-1 footer-row">
        
         <p>
-        &copy; Made by Matt Lopez  | <a href="https://github.com/mlopez94">Github</a> | made with <img id="react-icon" src="https://img.icons8.com/color/48/000000/react-native.png" alt="React"/>
+         <a href="https://github.com/mlopez94" className="fab fa-github" alt="github">Github</a> | <a href="https://https://stackoverflow.com/" className="fab fa-stack-overflow" alt="stack">Stack Overflow</a> | <a href="https://https://stackoverflow.com/" className="fab fa-twitter" alt="twitter">Twitter</a>
         </p>
 
     </div>

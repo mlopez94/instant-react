@@ -44,6 +44,11 @@ body {
   background: #C06C84;
 }
 
+.footer-row {
+  display: flex;
+  
+}
+
 .link {
   background-color: green;
   color: white;
@@ -231,7 +236,7 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .skillsGraph {
