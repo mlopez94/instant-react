@@ -16,10 +16,11 @@ const Modal = ({ onClose, currentPhoto }) => {
         <button type="button" onClick={onClose}>
           Close
         </button>
-        <button type='button' className="fab fa-github">  Go to Site</button>
+        
         {/* <button onClick={link}>Perform action</button> */}
-        <p>{repoLink}</p>
-        <p>{siteLink}</p>
+        <a href={repoLink} className="link fab fa-github">github</a>
+        <a href={siteLink} className="link fas fa-laptop-code">Site</a>
+        
       </div>
     </div>
   );

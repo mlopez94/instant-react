@@ -44,6 +44,15 @@ body {
   background: #C06C84;
 }
 
+.link {
+  background-color: green;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: table-cell;
+}
+
 h1,
 h2,
 h3,
