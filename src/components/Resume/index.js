@@ -4,7 +4,7 @@ function Resume() {
   return (
     <section className="resSection">
       <h1 className="skillsGraph">My Skills</h1>
-      <a href="./mlopez_resume9.2019.pdf">Resume</a>
+      <a href="../../mlopez_resume9.2019.pdf" download>Pdf document</a>
 
 
       <p>HTML</p>
