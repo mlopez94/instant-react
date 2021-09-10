@@ -4,6 +4,8 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
 import Footer from "./components/Footer";
+import Resume from "./components/Resume";
+
 
 
 
@@ -43,7 +45,7 @@ function App() {
         )}
         {currentCategory.name === "about" && <About/>}
         {currentCategory.name === 'contact' && <ContactForm/>}
-       { currentCategory.name === 'resume' && '' }
+       { currentCategory.name === 'resume' && <Resume/> }
         
       </main>
       <Footer></Footer>

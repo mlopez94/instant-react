@@ -60,7 +60,7 @@ const PhotoList = ({ category }) => {
         {currentPhotos.map((image, i) => (
           <img
             // src={require(`../../assets/small/${category}/${i}.jpg`)}
-            src={require(`../../assets/projects/all/${i}.png`).default}
+            src={require(`../../assets/projects/all/${i}.PNG`).default}
             alt={image.name}
             className="img-thumbnail mx-1"
             onClick={() => toggleModal(image, i)}

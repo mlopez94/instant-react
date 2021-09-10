@@ -140,7 +140,7 @@ span[role="img"] {
 }
 
 form {
-  width: 40%;
+  width: 15%;
 }
 
 input {
@@ -150,6 +150,7 @@ input {
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
+  width: 231%;
 }
 
 input:focus {
@@ -176,6 +177,11 @@ textarea {
 	padding: 5px;
 }
 
+.container2 {
+  width: 100%;
+  background-color: #ddd;
+}
+
 .container {
   width: 85%;
   max-width: 1200px;
@@ -183,11 +189,34 @@ textarea {
   margin-right: auto;
 }
 
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: red}
+.css {width: 80%; background-color: green;}
+.js {width: 65%; background-color: yellow;}
+.react {width: 75%; background-color: rgb(0, 187, 255);}
+.sql {width: 85%; background-color: blue;}
+.node {width: 90%; background-color: indigo;}
+.mongo {width: 80%; background-color: goldenrod;}
+.git {width: 90%; background-color: rebeccapurple;}
+
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: space-between;
+}
+
+.skillsGraph {
+  
+  display: flex;
+  justify-content: center;
 }
 
 .space-between {
