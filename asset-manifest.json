@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/instant-react/static/css/main.1be34abf.chunk.css",
-    "main.js": "/instant-react/static/js/main.44a500b6.chunk.js",
-    "main.js.map": "/instant-react/static/js/main.44a500b6.chunk.js.map",
+    "main.css": "/instant-react/static/css/main.b056b6c4.chunk.css",
+    "main.js": "/instant-react/static/js/main.f9706b38.chunk.js",
+    "main.js.map": "/instant-react/static/js/main.f9706b38.chunk.js.map",
     "runtime-main.js": "/instant-react/static/js/runtime-main.0821cf9a.js",
     "runtime-main.js.map": "/instant-react/static/js/runtime-main.0821cf9a.js.map",
     "static/js/2.77b58698.chunk.js": "/instant-react/static/js/2.77b58698.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2e517a50.chunk.js": "/instant-react/static/js/3.2e517a50.chunk.js",
     "static/js/3.2e517a50.chunk.js.map": "/instant-react/static/js/3.2e517a50.chunk.js.map",
     "index.html": "/instant-react/index.html",
-    "static/css/main.1be34abf.chunk.css.map": "/instant-react/static/css/main.1be34abf.chunk.css.map",
+    "static/css/main.b056b6c4.chunk.css.map": "/instant-react/static/css/main.b056b6c4.chunk.css.map",
     "static/js/2.77b58698.chunk.js.LICENSE.txt": "/instant-react/static/js/2.77b58698.chunk.js.LICENSE.txt",
     "static/media/0.PNG": "/instant-react/static/media/0.ce0f9167.PNG",
     "static/media/1.PNG": "/instant-react/static/media/1.dfb2826c.PNG",
@@ -18,6 +18,7 @@
     "static/media/3.PNG": "/instant-react/static/media/3.1bf643bb.PNG",
     "static/media/4.PNG": "/instant-react/static/media/4.869ea088.PNG",
     "static/media/5.PNG": "/instant-react/static/media/5.46777b57.PNG",
+    "static/media/contact-me.1a8c31a9.jpg": "/instant-react/static/media/contact-me.1a8c31a9.jpg",
     "static/media/cover-image.ff9429a7.jpeg": "/instant-react/static/media/cover-image.ff9429a7.jpeg",
     "static/media/happy-coder.df70b441.png": "/instant-react/static/media/happy-coder.df70b441.png",
     "static/media/mlopez_resume9-2019.db536d3a.pdf": "/instant-react/static/media/mlopez_resume9-2019.db536d3a.pdf"
@@ -25,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.0821cf9a.js",
     "static/js/2.77b58698.chunk.js",
-    "static/css/main.1be34abf.chunk.css",
-    "static/js/main.44a500b6.chunk.js"
+    "static/css/main.b056b6c4.chunk.css",
+    "static/js/main.f9706b38.chunk.js"
   ]
 }
