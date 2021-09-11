@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/instant-react/static/css/main.1be34abf.chunk.css",
-    "main.js": "/instant-react/static/js/main.01cf17ab.chunk.js",
-    "main.js.map": "/instant-react/static/js/main.01cf17ab.chunk.js.map",
+    "main.js": "/instant-react/static/js/main.44a500b6.chunk.js",
+    "main.js.map": "/instant-react/static/js/main.44a500b6.chunk.js.map",
     "runtime-main.js": "/instant-react/static/js/runtime-main.0821cf9a.js",
     "runtime-main.js.map": "/instant-react/static/js/runtime-main.0821cf9a.js.map",
     "static/js/2.77b58698.chunk.js": "/instant-react/static/js/2.77b58698.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.0821cf9a.js",
     "static/js/2.77b58698.chunk.js",
     "static/css/main.1be34abf.chunk.css",
-    "static/js/main.01cf17ab.chunk.js"
+    "static/js/main.44a500b6.chunk.js"
   ]
 }
