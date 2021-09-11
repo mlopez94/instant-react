@@ -6,7 +6,7 @@ function About() {
   return (
     <section className="my-5">
       <h1 id="about" className="whoAmi">
-        Who am I?
+        Hi. My name is Matt Lopez. I am a full stack web developer.
       </h1>
       <div className="flex-row">
         <img

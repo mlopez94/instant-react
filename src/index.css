@@ -147,6 +147,7 @@ button[disabled] {
 
 img {
   max-width: 100%;
+  border-radius: 45px;
 }
 
 span[role="img"] {
