@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import contactMe from "../../assets/cover/contact-me.jpg";
 
 function ContactForm() {
   const [formState, setFormState] = useState({
@@ -44,7 +45,20 @@ function ContactForm() {
   // JSX
   return (
     <section>
-      <h1>Contact me</h1>
+      <img
+          src={contactMe}
+          className="my-2"
+          style={{ width: "25%" }}
+          alt="contact-me"
+        />
+      
+      {/* <h1 className="imgContact fas fa-id-card-alt"> Contact me</h1> */}
+{/* 
+      <h2>GITHUB</h2>
+      <h2>GITHUB</h2>
+      <h2>GITHUB</h2>
+      <h2>GITHUB</h2> */}
+
       <div>
       <form id="contact-form" onSubmit={handleSubmit}>
         
